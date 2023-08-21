@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* closed  */
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Open Sans,Arial,sans-serif;
+    color:  #666;
+}
+
+.header-container{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0 20px; */
+}
+/* closed */
+.logo{
+    font-size: 2.5rem;
+}
+.navbar{
+    padding: 0%;
+    margin: 0%;
+}
+ul,li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    margin: 0 1.3rem;
+    text-transform: capitalize;
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 15px;
+}
+/*  */
+
+.showcase-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase-text{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 168, 106, 0.8);
+    /* text-align: center; */
+    /* background:rgba(6, 168, 106); */
+    /* padding: 20px; */
+}
+.showcase-text2{
+    width: 400px;
+    color: #000;
+    margin-top: 5rem;
+}
+.showcase-text2 h2{
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin: 0;
+    /* text-align: center; */
+    /* padding: ; */
+}
+.text-span1{
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.showcase-text2 p{
+    font-weight: 900;
+    margin-top: 15px;
+}
+.showcase-img{
+    width: 50%;
+    height: 100vh;
+}
+.showcase-img img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.showcase-container a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    background-color: gold;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: #000;
+    width: 250px;
+    box-shadow: rbga(0, 0, 0, 0.7);
+}
+.showcase-container a:hover{
+    color: grey;
+}
+/*  */
+
+.question-container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.question-container h2{
+    font-size: 2rem;
+    color: #333;
+    font-weight: 750;
+}
+
+.question-container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    grid-gap: 1rem;
+    margin-top: 2.5rem;
+    width: 70%;
+    text-align: center;
+}
+
+.fa-6x{
+    color: rgba(6, 168, 106, 0.8);
+    font-size: 5rem;
+    padding: 20px;
+}
+.box1 h2{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.box1 p{
+    color: rgba(51, 51, 51, 0.8);
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 1px;
+    
+}
+.box1 a{
+    color: rgba(36, 156, 204, 0.9);
+    text-decoration: none;
+    font-weight: 750;
+}
+/*  */
+
+.newsfeed-container{
+    background-color: rgba(6, 168, 106, 0.8);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.newsfeed-container .newfeed-text{
+    color: #000;
+    font-weight: 450;
+}
+
+.newsfeed-container .newfeed-text h2{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.newsfeed-container .newsfeedbtn button{
+    background-color: gold;
+    border: none;
+    outline: none;
+    width: 250px;
+    padding: 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    box-shadow: 0 3px 3px rgba(51, 51, 51, 0.3);
+    cursor: pointer;
+}
+.newsfeed-container .newsfeedbtn button:hover{
+    background-color: rgb(252, 220, 43);
+}
+/*  */
+
+.earn-money-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+    padding: 5rem;
+    color: #666;
+    background-color: #fff;
+}
+.earn-money-container .earn-money-img{
+    width: 500px;
+}
+.earn-money-container .earn-money-img img{
+    width: 100%;
+}
+.earn-money-container .earn-money-text{
+    width: 500px;
+    margin-top: 2rem;
+    /* padding-bottom: 2rem; */
+
+}
+
+.earn-money-container .earn-money-text h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1d1d1d;
+    margin-bottom: 2rem;
+}
+
+.earn-money-container .earn-money-text p{
+    margin: 1rem 0;
+    line-height: 1.7rem;
+}
+/*  */
+.payment-container{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(6, 168, 106, 0.8);
+}
+.payment-container h2{
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.7rem;
+}
+.payment-container p{
+    text-align: center;
+}
